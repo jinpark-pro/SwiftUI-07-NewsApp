@@ -11,6 +11,10 @@
 		3C06CF1F2C24FD9600127B44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06CF1E2C24FD9600127B44 /* ContentView.swift */; };
 		3C06CF212C24FD9800127B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C06CF202C24FD9800127B44 /* Assets.xcassets */; };
 		3C06CF242C24FD9800127B44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C06CF232C24FD9800127B44 /* Preview Assets.xcassets */; };
+		3C06CF2B2C25009E00127B44 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06CF2A2C25009E00127B44 /* NewsItem.swift */; };
+		3C06CF2D2C25018F00127B44 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06CF2C2C25018F00127B44 /* NewsService.swift */; };
+		3C06CF2F2C25021700127B44 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06CF2E2C25021700127B44 /* NewsViewModel.swift */; };
+		3C06CF332C250FF100127B44 /* NaverSearchApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06CF322C250FF100127B44 /* NaverSearchApplicationInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3C06CF1E2C24FD9600127B44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C06CF202C24FD9800127B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C06CF232C24FD9800127B44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C06CF2A2C25009E00127B44 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		3C06CF2C2C25018F00127B44 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+		3C06CF2E2C25021700127B44 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		3C06CF322C250FF100127B44 /* NaverSearchApplicationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverSearchApplicationInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				3C06CF1C2C24FD9600127B44 /* NewsAppApp.swift */,
+				3C06CF2A2C25009E00127B44 /* NewsItem.swift */,
+				3C06CF2C2C25018F00127B44 /* NewsService.swift */,
+				3C06CF2E2C25021700127B44 /* NewsViewModel.swift */,
 				3C06CF1E2C24FD9600127B44 /* ContentView.swift */,
+				3C06CF322C250FF100127B44 /* NaverSearchApplicationInfo.swift */,
 				3C06CF202C24FD9800127B44 /* Assets.xcassets */,
 				3C06CF222C24FD9800127B44 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C06CF1F2C24FD9600127B44 /* ContentView.swift in Sources */,
+				3C06CF2B2C25009E00127B44 /* NewsItem.swift in Sources */,
+				3C06CF2F2C25021700127B44 /* NewsViewModel.swift in Sources */,
+				3C06CF2D2C25018F00127B44 /* NewsService.swift in Sources */,
 				3C06CF1D2C24FD9600127B44 /* NewsAppApp.swift in Sources */,
+				3C06CF332C250FF100127B44 /* NaverSearchApplicationInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = B8D5M6C29N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = B8D5M6C29N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
